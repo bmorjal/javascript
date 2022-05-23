@@ -17,6 +17,7 @@
         <p id="sample">
             This paragraph has an ID of sample
         </p>
+        <button type="button" onclick='document.getElementById("sample").innerHTML ="Blake Morjal" '>Click Here!</button>
         <div class="buttons">
             <button>dog</button>
             <button>cat</button>
@@ -24,7 +25,7 @@
 
         <img src="images/dog.jpg" alt="animal" id="pet" class="center">
         <div class="buttons">
-            <button>show</button>
+            <button onclick="document.getElementById('pet').src='images/cat.jpg'">show</button>
             <button>hide</button>
         </div>
 
