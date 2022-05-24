@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+    function myFunction()
+    {document.getElementById("sample").innerHTML="Nature of all different kinds"}
+    </script>
+    <script src="script/script.js"></script>
+    <title>Blake Morjal</title>
+</head>
+<body>
+    <header>
+        <h1>Assessment 01</h1>
+    </header>
+
+    <main>
+        <button type="button" onclick="myFunction()">Nature!</button>
+        <button type="button" onclick="myFunction2()">Nature, but more Nature!</button>
+        <p id="start"></p>
+        <script>
+            document.sgetElementById("start").innerHTML="Beautiful senary"
+        </script>
+        <p id="sample">
+            
+        </p>
+        <button type="button" onclick='document.getElementById("sample").innerHTML ="These pictures are in different areas!" '>Click here for fun fact!</button>
+        
+        
+        <div class="buttons">
+            <button onclick="document.getElementById('nature').src='images/blue.jpg'">Blue</button>
+            <button onclick="document.getElementById('nature').src='images/green.jpg'">Green</button>
+            <button onclick="document.getElementById('nature').src='images/red.jpg'">Red</button>
+           
+        </div>
+        <img src="images/blue.jpg" alt="trees" id="nature" class="center">
+        <div class="buttons">
+            <button onclick="document.getElementById('nature').style.display='block'">show</button>
+            <button onclick="document.getElementById('nature').style.display='none'">hide</button>
+        </div>
+
+        <img src="images/blue.jpg" id="one" width="200px" /><br/>
+        <button onclick="resizeImage()">Resize</button>
+        <button onclick="resetImage()">Reset</button>
+
+        <p id="color">Change colors</p>
+        <button type="button" onclick='document.getElementById("color").style.color ="red";'>Change color</button>
+        <button type="button" onclick='document.getElementById("color").style.color ="black";'>Change back</button>
+
+
+    </main>
+
+    <footer>
+        <p>&copy;2022 Blake Morjal</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+img {
+    box-sizing: border-box;
+    
+    margin: 20px auto;
+}
+
+.buttons {
+    width: 30%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.left {
+    clear: both;
+    float: left;
+    padding: 20px;
+}
+
+.right {
+    clear: both;
+    float: right;
+    padding: 20px;
+}
+
+.center {
+    clear: both;
+    display: block;
+    margin: 10px auto;
+}
+
+footer {
+    text-align: center;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+p {
+    font-size: 30px;
+}
