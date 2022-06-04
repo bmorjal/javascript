@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/script.js"></script>
+    <title>Menu</title>
+</head>
+<body>
+    <header>
+        <h1>Menu</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="fname"><br>
+    </header>
+    <main>
+        <div id="drinks">
+        <h2>Drinks</h2>
+        <ul>
+            <input type="checkbox" id="water" name="vehicle1" value="0">
+            <label for="vehicle1"> Water</label><br>
+            <input type="checkbox" id="pepsi" name="vehicle2" value="2">
+            <label for="vehicle2"> Pepsi</label><br>
+            <input type="checkbox" id="coke" name="vehicle3" value="2">
+            <label for="vehicle3"> Coke</label><br>
+            <input type="checkbox" id="milk" name="vehicle4" value="2">
+            <label for="vehicle4"> Milk</label><br>
+            <input type="checkbox" id="lemonade" name="vehicle5" value="2">
+            <label for="vehicle5"> Lemonade</label><br>
+            
+        </ul>
+        </div>
+        <div id="sandwiches">
+        <h2>Sandwiches</h2>
+        <ul>
+            <input type="checkbox" id="blt" name="vehicle6" value="8">
+            <label for="vehicle6"> BLT</label><br>
+            <input type="checkbox" id="pbj" name="vehicle7" value="4">
+            <label for="vehicle7"> Pb and J</label><br>
+            <input type="checkbox" id="ham" name="vehicle8" value="7">
+            <label for="vehicle8"> Ham and Cheese</label><br>
+            <input type="checkbox" id="patty" name="vehicle9" value="8">
+            <label for="vehicle9"> Patty Melt</label><br>
+            <input type="checkbox" id="hamburger" name="vehicle10" value="8">
+            <label for="vehicle10"> Hamburger</label><br>
+        </ul>
+        </div>
+        <div id="deserts">
+        <h2>Desert</h2>
+        <ul>
+            <input type="checkbox" id="ice" name="vehicle11" value="4">
+            <label for="vehicle11"> Icecream</label><br>
+            <input type="checkbox" id="jello" name="vehicle12" value="2">
+            <label for="vehicle12"> Jello</label><br>
+            <input type="checkbox" id="fruit" name="vehicle13" value="6">
+            <label for="vehicle13"> Fruit Tart</label><br>
+            <input type="checkbox" id="chocolate" name="vehicle14" value="6">
+            <label for="vehicle14"> Chocolate cake</label><br>
+            <input type="checkbox" id="cheese" name="vehicle15" value="7">
+            <label for="vehicle15"> Cheesecake</label><br>
+        </ul>
+        </div>
+        <div class="bottom" onclick="estimate()">
+            <button type="button">Total Out!</button>
+            <h3>Total:</h3>
+            <p id="estimate"></p>
+        </div>
+    </main>
+    <footer>
+        <p>Blake Morjal</p>
+    </footer>
+</body>
+</html>
