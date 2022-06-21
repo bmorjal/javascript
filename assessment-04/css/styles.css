@@ -1,0 +1,22 @@
+body {
+    background-color: darkgray;
+    }
+
+#container{
+    background-color: aqua;
+    border: 3px solid black;
+    height: 300px;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+p{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h1, h2{
+    text-align: center;
+}
